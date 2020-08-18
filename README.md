@@ -1,6 +1,6 @@
-# Spring Boot with Kafka Producer Example
+# Spring Boot with Kafka Producer and Consumer Example
 
-This Project covers how to use Spring Boot with Spring Kafka to Publish JSON/String message to a Kafka topic
+This Project covers how to use Spring Boot with Spring Kafka to Publish JSON/String message to a Kafka topic and consume
 ## Start Zookeeper
 - `bin/zookeeper-server-start.sh com.poc.playbook.kafka.consumer.config/zookeeper.properties`
 
@@ -14,6 +14,6 @@ This Project covers how to use Spring Boot with Spring Kafka to Publish JSON/Str
 - `bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic Kafka_Example --from-beginning`
 
 ## Publish message via WebService
-- `http://localhost:8081/kafka/publish/Sam`
-- `http://localhost:8081/kafka/publish/Peter`
+- `http://localhost:8081/kafka-producer/publish/NL01`
+- `http://localhost:8081/kafka-producer/publish/NL02`
 # kafka-producer-consumer
