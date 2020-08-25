@@ -23,3 +23,16 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+
+**/.idea
+**/*.iml
+**/*.bak
+**/*.log
+**/*.orig
+**/*.versionsBackup
+**/target
+/keystores
+*.cer
+*.p12
+**/logs
+**/pid
